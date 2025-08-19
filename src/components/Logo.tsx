@@ -5,7 +5,7 @@ const Logo = () => {
     <>
       <div className="flex justify-center p-6">
         <img
-          className="w-[272px] h-[92px]"
+          className="w-[250px] h-[80px]"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3pj6Dwf_F7ucAjn7hRXhZsKvytaqdRZtPVA&s"
         />
       </div>
