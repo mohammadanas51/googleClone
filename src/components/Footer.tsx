@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gray-100 mt-28">
-      <div className="px-5 py-3 border-b border-gray-300 text-sm">
+      <div className="px-3 py-1 border-b border-gray-300 ">
         India
       </div>
-      <div className="flex justify-between px-5 py-3 text-sm">
+      <div className="flex justify-between px-5 py-1 text-sm">
         <ul className="flex gap-3">
           <li className="hover:underline cursor-pointer">Advertising</li>
           <li className="hover:underline cursor-pointer">Business</li>
