@@ -1,15 +1,14 @@
-
 const SearchBar = () => {
   return (
-    <>
-      <div className="bg-gray-500 rounded-md p-0.5 ml-1 mr-1">
+    <div className="flex justify-center mt-6">
+      <div className="flex bg-gray-500 rounded-full w-full max-w-xl px-4 py-2">
         <input
-            type="text" 
-            placeholder="Search Google or type a URL" 
-            className="flex-grow px-4 py-1 outline-none text-white"
-          />
+          type="text"
+          placeholder="Search Google or type a URL"
+          className="flex-grow bg-transparent outline-none text-white placeholder-gray-300"
+        />
       </div>
-    </>
+    </div>
   );
 };
 
