@@ -1,22 +1,22 @@
-import Buttons from "./components/Buttons"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Languages from "./components/Languages"
-import Logo from "./components/Logo"
-import SearchBar from "./components/SearchBar"
+  import Buttons from "./components/Buttons"
+  import Footer from "./components/Footer"
+  import Header from "./components/Header"
+  import Languages from "./components/Languages"
+  import Logo from "./components/Logo"
+  import SearchBar from "./components/SearchBar"
 
-function App() {
+  function App() {
 
-  return (
-    <div className="bg-[#202124]">
-      <Header/>
-      <Logo />
-      <SearchBar />
-      <Buttons />
-      <Languages />
-      <Footer />
-    </div>
-  )
-}
+    return (
+      <div className="bg-[#202124] min-h-screen">
+        <Header/>
+        <Logo />
+        <SearchBar />
+        <Buttons />
+        <Languages />
+        <Footer />
+      </div>
+    )
+  }
 
-export default App
+  export default App
