@@ -1,8 +1,7 @@
-
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 mt-28">
-      <div className="px-3 py-1 border-b border-gray-300 ">
+    <footer className="text-white">
+      <div className="px-3 py-1 border-b border-gray-300">
         India
       </div>
       <div className="flex justify-between px-5 py-1 text-sm">
@@ -21,5 +20,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;

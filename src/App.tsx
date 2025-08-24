@@ -8,14 +8,18 @@
   function App() {
 
     return (
-      <div className="bg-[#202124] min-h-screen">
-        <Header/>
-        <Logo />
-        <SearchBar />
-        <Buttons />
-        <Languages />
-        <Footer />
-      </div>
+      <div className="flex flex-col min-h-screen bg-[#202124]">
+      <Header />
+      <Logo />
+      <SearchBar />
+      <Buttons />
+      <Languages />
+
+      {/* Pushes footer to the bottom */}
+      <div className="flex-grow"></div>  
+
+      <Footer />
+    </div>
     )
   }
 

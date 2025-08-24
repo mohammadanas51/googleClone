@@ -1,9 +1,8 @@
-import React from 'react'
 
 const Header = () => {  
   return (
     <>
-      <div className="flex justify-between px-5 py-3 text-sm sm:flex sm:justify-between">
+      <div className="flex justify-between px-5 py-3 text-sm sm:flex sm:justify-between text-white">
         <ul className="flex gap-3">
           <li className="hover:underline cursor-pointer">About</li>
           <li className="hover:underline cursor-pointer">Store</li>
