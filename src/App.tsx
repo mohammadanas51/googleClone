@@ -8,7 +8,7 @@ import SearchBar from "./components/SearchBar"
 function App() {
 
   return (
-    <div className="">
+    <div className="bg-[#202124]">
       <Header/>
       <Logo />
       <SearchBar />

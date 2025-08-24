@@ -3,13 +3,13 @@ import React from 'react'
 const Header = () => {  
   return (
     <>
-      <div className="flex justify-between px-5 py-3 text-sm">
+      <div className="flex justify-between px-5 py-3 text-sm sm:flex sm:justify-between">
         <ul className="flex gap-3">
           <li className="hover:underline cursor-pointer">About</li>
           <li className="hover:underline cursor-pointer">Store</li>
         </ul>
 
-        <ul className="flex gap-3">
+        <ul className="flex gap-3 sm:flex sm:justify-between">
           <li className="hover:underline cursor-pointer">Gmail</li>
           <li className="hover:underline cursor-pointer">Search Labs</li>
           <li className="hover:underline cursor-pointer">Google Apps</li>
